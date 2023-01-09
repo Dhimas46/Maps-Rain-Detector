@@ -1,0 +1,172 @@
+CRITICAL - 2022-05-07 02:39:11 --> Too few arguments to function userLogin(), 0 passed in C:\xampp\htdocs\gmaps\app\Views\layout\default.php on line 222 and exactly 1 expected
+#0 C:\xampp\htdocs\gmaps\app\Views\layout\default.php(222): userLogin()
+#1 C:\xampp\htdocs\gmaps\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\gmaps\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\gmaps\system\View\View.php(226): CodeIgniter\View\View->render('layout/default', Array, true)
+#4 C:\xampp\htdocs\gmaps\system\Common.php(1089): CodeIgniter\View\View->render('map/maps', Array, true)
+#5 C:\xampp\htdocs\gmaps\app\Controllers\Maps.php(14): view('map/maps', Array)
+#6 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Maps->index()
+#7 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#8 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\gmaps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-05-07 02:52:01 --> Call to a member function search() on null
+#0 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Maps->gis()
+#1 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#2 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\gmaps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-07 03:00:17 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\gmaps\app\Controllers\Maps.php on line 38
+#0 C:\xampp\htdocs\gmaps\app\Controllers\Maps.php(38): view('map/gis', NULL)
+#1 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Maps->gis()
+#2 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#3 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\gmaps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-07 03:00:37 --> Call to a member function search() on null
+#0 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Maps->gis()
+#1 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#2 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\gmaps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-07 03:01:39 --> Call to a member function search() on null
+#0 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Maps->gis()
+#1 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#2 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\gmaps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-07 03:06:21 --> Call to a member function search() on null
+#0 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Maps->gis()
+#1 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#2 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\gmaps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-07 03:07:33 --> Call to a member function search() on null
+#0 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Maps->gis()
+#1 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#2 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\gmaps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-07 03:10:50 --> Call to a member function search() on null
+#0 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Maps->gis()
+#1 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#2 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\gmaps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-07 03:10:54 --> Call to a member function search() on null
+#0 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Maps->gis()
+#1 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#2 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\gmaps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-07 03:14:41 --> syntax error, unexpected '$data' (T_VARIABLE)
+#0 C:\xampp\htdocs\gmaps\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('maps/gis')
+#1 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('maps/gis')
+#2 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\gmaps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-07 03:14:42 --> syntax error, unexpected '$data' (T_VARIABLE)
+#0 C:\xampp\htdocs\gmaps\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('maps/gis')
+#1 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('maps/gis')
+#2 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\gmaps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-07 03:14:43 --> syntax error, unexpected '$data' (T_VARIABLE)
+#0 C:\xampp\htdocs\gmaps\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('maps/leaflet')
+#1 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('maps/leaflet')
+#2 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\gmaps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-07 03:15:13 --> Call to a member function search() on null
+#0 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Maps->gis()
+#1 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#2 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\gmaps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-07 03:16:24 --> Call to a member function search() on null
+#0 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Maps->gis()
+#1 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#2 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\gmaps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-07 03:16:28 --> Call to a member function search() on null
+#0 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Maps->gis()
+#1 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#2 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\gmaps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-07 19:42:01 --> isLoggedIn filter must have a matching alias defined.
+#0 C:\xampp\htdocs\gmaps\system\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('isLoggedIn')
+#1 C:\xampp\htdocs\gmaps\system\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 C:\xampp\htdocs\gmaps\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('home')
+#3 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('home', 'before')
+#4 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\gmaps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-05-07 19:43:27 --> isLoggedIn filter must have a matching alias defined.
+#0 C:\xampp\htdocs\gmaps\system\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('isLoggedIn')
+#1 C:\xampp\htdocs\gmaps\system\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 C:\xampp\htdocs\gmaps\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('home')
+#3 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('home', 'before')
+#4 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\gmaps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-05-07 19:43:29 --> isLoggedIn filter must have a matching alias defined.
+#0 C:\xampp\htdocs\gmaps\system\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('isLoggedIn')
+#1 C:\xampp\htdocs\gmaps\system\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 C:\xampp\htdocs\gmaps\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('home')
+#3 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('home', 'before')
+#4 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\gmaps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-05-07 19:43:30 --> isLoggedIn filter must have a matching alias defined.
+#0 C:\xampp\htdocs\gmaps\system\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('isLoggedIn')
+#1 C:\xampp\htdocs\gmaps\system\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 C:\xampp\htdocs\gmaps\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('home')
+#3 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('home', 'before')
+#4 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\gmaps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-05-07 19:43:30 --> isLoggedIn filter must have a matching alias defined.
+#0 C:\xampp\htdocs\gmaps\system\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('isLoggedIn')
+#1 C:\xampp\htdocs\gmaps\system\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 C:\xampp\htdocs\gmaps\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('home')
+#3 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('home', 'before')
+#4 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\gmaps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-05-07 19:44:53 --> Class 'Config\LoginFilter' not found
+#0 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('home', 'before')
+#1 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\gmaps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-05-07 19:45:52 --> Class 'Config\LoginFilter' not found
+#0 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('home', 'before')
+#1 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\gmaps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}

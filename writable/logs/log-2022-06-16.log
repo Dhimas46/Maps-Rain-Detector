@@ -1,0 +1,18 @@
+ERROR - 2022-06-16 21:26:27 --> Unknown column 'email_user' in 'field list'
+ERROR - 2022-06-16 21:28:17 --> Unknown column 'email_user' in 'where clause'
+CRITICAL - 2022-06-16 21:28:17 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Auth->loginProcess()
+#1 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\gmaps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-06-16 21:29:31 --> Unknown column 'email_user' in 'where clause'
+CRITICAL - 2022-06-16 21:29:31 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Auth->loginProcess()
+#1 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\gmaps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-06-16 21:37:00 --> Unknown column 'email' in 'field list'

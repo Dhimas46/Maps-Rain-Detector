@@ -1,0 +1,76 @@
+CRITICAL - 2022-05-06 20:42:33 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\gmaps\app\Views\map\gis.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\gmaps\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\gmaps\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\gmaps\system\Common.php(1089): CodeIgniter\View\View->render('map/gis', Array, true)
+#4 C:\xampp\htdocs\gmaps\app\Controllers\Maps.php(37): view('map/gis')
+#5 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Maps->gis()
+#6 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#7 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\gmaps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-06 21:41:30 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Maps->gis()
+#1 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#2 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\gmaps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-06 21:49:21 --> Argument 3 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\gmaps\app\Controllers\Maps.php on line 49
+#0 C:\xampp\htdocs\gmaps\app\Controllers\Maps.php(49): view('map/gis', Array, NULL)
+#1 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Maps->gis()
+#2 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#3 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\gmaps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-06 21:50:39 --> Call to a member function search() on null
+#0 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Maps->gis()
+#1 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#2 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\gmaps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-06 21:51:38 --> Call to a member function search() on null
+#0 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Maps->gis()
+#1 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#2 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\gmaps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-06 21:52:47 --> Call to a member function search() on null
+#0 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Maps->gis()
+#1 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#2 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\gmaps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-06 21:55:04 --> Call to a member function search() on null
+#0 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Maps->gis()
+#1 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#2 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\gmaps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-06 21:55:14 --> Call to a member function search() on null
+#0 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Maps->gis()
+#1 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#2 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\gmaps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-06 21:57:13 --> Call to a member function search() on null
+#0 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Maps->gis()
+#1 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#2 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\gmaps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-06 21:57:21 --> Call to a member function search() on null
+#0 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Maps->gis()
+#1 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#2 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\gmaps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}

@@ -1,0 +1,85 @@
+CRITICAL - 2022-06-23 12:56:44 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\gmaps\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\gmaps\spark(45): require('C:\\xampp\\htdocs...')
+#4 {main}
+ERROR - 2022-06-23 06:00:56 --> Table 'gmaps.sensor' doesn't exist
+ERROR - 2022-06-23 06:01:01 --> Table 'gmaps.sensor' doesn't exist
+CRITICAL - 2022-06-23 06:01:01 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Sensor->index()
+#1 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sensor))
+#2 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\gmaps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-06-23 06:01:08 --> Table 'gmaps.sensor' doesn't exist
+ERROR - 2022-06-23 06:01:11 --> Table 'gmaps.sensor' doesn't exist
+CRITICAL - 2022-06-23 06:01:11 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Maps->leaflet()
+#1 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#2 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\gmaps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-06-23 06:01:13 --> Table 'gmaps.sensor' doesn't exist
+CRITICAL - 2022-06-23 06:39:10 --> syntax error, unexpected '=', expecting ')'
+#0 C:\xampp\htdocs\gmaps\system\Controller.php(85): helper(Array)
+#1 C:\xampp\htdocs\gmaps\app\Controllers\BaseController.php(46): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(810): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\gmaps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-06-23 06:40:02 --> syntax error, unexpected '=', expecting ')'
+#0 C:\xampp\htdocs\gmaps\system\Controller.php(85): helper(Array)
+#1 C:\xampp\htdocs\gmaps\app\Controllers\BaseController.php(46): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(810): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\gmaps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-06-23 06:44:17 --> Use of undefined constant Rain - assumed 'Rain' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\gmaps\app\Helpers\custom_helper.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\gmaps\app\Views\home.php(38): countRain('sensor')
+#2 C:\xampp\htdocs\gmaps\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\gmaps\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\gmaps\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#5 C:\xampp\htdocs\gmaps\app\Controllers\Home.php(9): view('home')
+#6 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\gmaps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-06-23 06:44:54 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\gmaps\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\gmaps\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\gmaps\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#3 C:\xampp\htdocs\gmaps\app\Controllers\Home.php(9): view('home')
+#4 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\gmaps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-06-23 06:45:00 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 C:\xampp\htdocs\gmaps\system\Controller.php(85): helper(Array)
+#1 C:\xampp\htdocs\gmaps\app\Controllers\BaseController.php(46): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(810): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\gmaps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-06-23 06:45:06 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 C:\xampp\htdocs\gmaps\system\Controller.php(85): helper(Array)
+#1 C:\xampp\htdocs\gmaps\app\Controllers\BaseController.php(46): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(810): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\gmaps\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}

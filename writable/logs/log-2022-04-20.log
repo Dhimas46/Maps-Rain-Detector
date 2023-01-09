@@ -1,0 +1,422 @@
+CRITICAL - 2022-04-20 03:37:13 --> Invalid file: maps.php
+#0 C:\xampp\htdocs\gmaps\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('maps.php')
+#1 C:\xampp\htdocs\gmaps\system\Common.php(1089): CodeIgniter\View\View->render('maps', Array, true)
+#2 C:\xampp\htdocs\gmaps\app\Controllers\Maps.php(9): view('maps')
+#3 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Maps->index()
+#4 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#5 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-20 03:37:50 --> Invalid file: maps.php
+#0 C:\xampp\htdocs\gmaps\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('maps.php')
+#1 C:\xampp\htdocs\gmaps\system\Common.php(1089): CodeIgniter\View\View->render('maps', Array, true)
+#2 C:\xampp\htdocs\gmaps\app\Controllers\Maps.php(9): view('maps')
+#3 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Maps->index()
+#4 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#5 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-20 03:37:58 --> Invalid file: maps.php
+#0 C:\xampp\htdocs\gmaps\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('maps.php')
+#1 C:\xampp\htdocs\gmaps\system\Common.php(1089): CodeIgniter\View\View->render('maps', Array, true)
+#2 C:\xampp\htdocs\gmaps\app\Controllers\Maps.php(9): view('maps')
+#3 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Maps->index()
+#4 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#5 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-20 03:38:18 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\gmaps\app\Views\maps\maps.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\gmaps\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\gmaps\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\gmaps\system\Common.php(1089): CodeIgniter\View\View->render('maps/maps.php', Array, true)
+#4 C:\xampp\htdocs\gmaps\app\Controllers\Maps.php(9): view('maps/maps.php')
+#5 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Maps->index()
+#6 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#7 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-20 03:38:42 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\gmaps\app\Views\maps\maps.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\gmaps\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\gmaps\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\gmaps\system\Common.php(1089): CodeIgniter\View\View->render('maps/maps', Array, true)
+#4 C:\xampp\htdocs\gmaps\app\Controllers\Maps.php(9): view('maps/maps')
+#5 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Maps->index()
+#6 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#7 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-20 03:39:19 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\gmaps\app\Views\map\maps.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\gmaps\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\gmaps\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\gmaps\system\Common.php(1089): CodeIgniter\View\View->render('map/maps', Array, true)
+#4 C:\xampp\htdocs\gmaps\app\Controllers\Maps.php(9): view('map/maps')
+#5 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Maps->index()
+#6 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#7 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-20 03:40:47 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\gmaps\app\Views\map\maps.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\gmaps\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\gmaps\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\gmaps\system\Common.php(1089): CodeIgniter\View\View->render('map/maps', Array, true)
+#4 C:\xampp\htdocs\gmaps\app\Controllers\Maps.php(9): view('map/maps')
+#5 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Maps->index()
+#6 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#7 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-20 03:40:51 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\gmaps\app\Views\map\maps.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\gmaps\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\gmaps\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\gmaps\system\Common.php(1089): CodeIgniter\View\View->render('map/maps', Array, true)
+#4 C:\xampp\htdocs\gmaps\app\Controllers\Maps.php(9): view('map/maps')
+#5 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Maps->index()
+#6 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#7 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-20 03:40:55 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\gmaps\app\Views\map\maps.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\gmaps\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\gmaps\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\gmaps\system\Common.php(1089): CodeIgniter\View\View->render('map/maps', Array, true)
+#4 C:\xampp\htdocs\gmaps\app\Controllers\Maps.php(9): view('map/maps')
+#5 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Maps->index()
+#6 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#7 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-20 03:42:16 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\gmaps\app\Views\map\maps.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\gmaps\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\gmaps\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\gmaps\system\Common.php(1089): CodeIgniter\View\View->render('map/maps', Array, true)
+#4 C:\xampp\htdocs\gmaps\app\Controllers\Maps.php(9): view('map/maps')
+#5 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Maps->index()
+#6 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#7 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-20 03:42:23 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\gmaps\app\Views\map\maps.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\gmaps\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\gmaps\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\gmaps\system\Common.php(1089): CodeIgniter\View\View->render('map/maps', Array, true)
+#4 C:\xampp\htdocs\gmaps\app\Controllers\Maps.php(9): view('map/maps')
+#5 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Maps->index()
+#6 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#7 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-20 03:42:31 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\gmaps\app\Views\map\maps.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\gmaps\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\gmaps\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\gmaps\system\Common.php(1089): CodeIgniter\View\View->render('map/maps', Array, true)
+#4 C:\xampp\htdocs\gmaps\app\Controllers\Maps.php(9): view('map/maps')
+#5 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Maps->index()
+#6 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#7 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-20 03:43:40 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\gmaps\app\Views\map\maps.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\gmaps\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\gmaps\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\gmaps\system\Common.php(1089): CodeIgniter\View\View->render('map/maps', Array, true)
+#4 C:\xampp\htdocs\gmaps\app\Controllers\Maps.php(9): view('map/maps')
+#5 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Maps->index()
+#6 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#7 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-20 03:55:07 --> Invalid file: map/maps.php
+#0 C:\xampp\htdocs\gmaps\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('map/maps.php')
+#1 C:\xampp\htdocs\gmaps\system\Common.php(1089): CodeIgniter\View\View->render('map/maps', Array, true)
+#2 C:\xampp\htdocs\gmaps\app\Controllers\Maps.php(9): view('map/maps')
+#3 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Maps->index()
+#4 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#5 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-20 03:55:24 --> Invalid file: map/maps.php
+#0 C:\xampp\htdocs\gmaps\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('map/maps.php')
+#1 C:\xampp\htdocs\gmaps\system\Common.php(1089): CodeIgniter\View\View->render('map/maps', Array, true)
+#2 C:\xampp\htdocs\gmaps\app\Controllers\Maps.php(9): view('map/maps')
+#3 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Maps->index()
+#4 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#5 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-20 19:02:40 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\gmaps\app\Views\services\get.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\gmaps\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\gmaps\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\gmaps\system\Common.php(1089): CodeIgniter\View\View->render('services/get', Array, true)
+#4 C:\xampp\htdocs\gmaps\app\Controllers\Services.php(9): view('services/get')
+#5 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Services->index()
+#6 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Services))
+#7 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-20 19:04:48 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\gmaps\app\Views\services\get.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\gmaps\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\gmaps\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\gmaps\system\Common.php(1089): CodeIgniter\View\View->render('services/get', Array, true)
+#4 C:\xampp\htdocs\gmaps\app\Controllers\Services.php(9): view('services/get')
+#5 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Services->index()
+#6 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Services))
+#7 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-20 19:07:05 --> Call to a member function table() on null
+#0 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Services->index()
+#1 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Services))
+#2 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-20 19:07:21 --> Call to a member function table() on null
+#0 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Services->index()
+#1 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Services))
+#2 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-20 19:15:43 --> Call to a member function table() on null
+#0 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Services->index()
+#1 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Services))
+#2 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-20 19:19:03 --> Call to a member function table() on null
+#0 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Services->index()
+#1 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Services))
+#2 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-20 19:19:59 --> Call to a member function table() on null
+#0 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Services->index()
+#1 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Services))
+#2 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-20 19:20:00 --> Call to a member function table() on null
+#0 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Services->index()
+#1 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Services))
+#2 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-20 19:20:04 --> Call to a member function table() on null
+#0 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Services->index()
+#1 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Services))
+#2 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-20 19:21:29 --> Call to a member function query() on null
+#0 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Services->index()
+#1 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Services))
+#2 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-20 19:21:34 --> Call to a member function getResult() on null
+#0 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Services->index()
+#1 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Services))
+#2 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-20 19:21:37 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\gmaps\app\Controllers\Services.php on line 14
+#0 C:\xampp\htdocs\gmaps\app\Controllers\Services.php(14): view('services/get', NULL)
+#1 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Services->index()
+#2 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Services))
+#3 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-20 19:21:45 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\gmaps\app\Views\services\get.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\gmaps\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\gmaps\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\gmaps\system\Common.php(1089): CodeIgniter\View\View->render('services/get', Array, true)
+#4 C:\xampp\htdocs\gmaps\app\Controllers\Services.php(14): view('services/get')
+#5 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Services->index()
+#6 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Services))
+#7 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-20 19:23:58 --> Call to a member function table() on null
+#0 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Services->index()
+#1 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Services))
+#2 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-20 19:24:00 --> Call to a member function table() on null
+#0 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Services->index()
+#1 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Services))
+#2 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-20 19:25:37 --> Call to a member function table() on null
+#0 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Services->index()
+#1 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Services))
+#2 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-20 19:27:04 --> Call to a member function table() on null
+#0 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Services->index()
+#1 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Services))
+#2 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-20 19:27:15 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\gmaps\app\Controllers\Services.php on line 14
+#0 C:\xampp\htdocs\gmaps\app\Controllers\Services.php(14): view('services/get', NULL)
+#1 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Services->index()
+#2 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Services))
+#3 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-20 19:28:05 --> Call to a member function table() on null
+#0 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Services->index()
+#1 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Services))
+#2 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-20 19:28:15 --> Call to a member function table() on null
+#0 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Services->index()
+#1 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Services))
+#2 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-04-20 19:43:17 --> Table 'gmaps.gawe' doesn't exist
+ERROR - 2022-04-20 19:43:24 --> Table 'gmaps.gawe' doesn't exist
+ERROR - 2022-04-20 20:02:01 --> Unknown column 'csrf_test_name' in 'field list'
+ERROR - 2022-04-20 20:02:34 --> Unknown column 'csrf_test_name' in 'field list'
+ERROR - 2022-04-20 20:02:42 --> Unknown column 'csrf_test_name' in 'field list'
+ERROR - 2022-04-20 20:03:25 --> Unknown column 'csrf_test_name' in 'field list'
+ERROR - 2022-04-20 20:07:01 --> Unknown column 'csrf_test_name' in 'field list'
+CRITICAL - 2022-04-20 20:11:22 --> syntax error, unexpected ';', expecting ']'
+#0 C:\xampp\htdocs\gmaps\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\gmaps\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-20 20:12:03 --> syntax error, unexpected ';', expecting ']'
+#0 C:\xampp\htdocs\gmaps\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\gmaps\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-20 20:13:29 --> Unknown column 'csrf_test_name' in 'field list'
+ERROR - 2022-04-20 20:13:45 --> Unknown column 'csrf_test_name' in 'field list'
+ERROR - 2022-04-20 20:16:45 --> Unknown column 'csrf_test_name' in 'field list'
+ERROR - 2022-04-20 20:16:59 --> Unknown column 'csrf_test_name' in 'field list'
+ERROR - 2022-04-20 20:17:12 --> Unknown column 'csrf_test_name' in 'field list'
+ERROR - 2022-04-20 20:18:53 --> Unknown column 'csrf_test_name' in 'field list'
+ERROR - 2022-04-20 20:19:08 --> Unknown column 'csrf_test_name' in 'field list'
+CRITICAL - 2022-04-20 21:31:47 --> Invalid file: layout.php
+#0 C:\xampp\htdocs\gmaps\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout.php')
+#1 C:\xampp\htdocs\gmaps\system\View\View.php(226): CodeIgniter\View\View->render('layout', Array, true)
+#2 C:\xampp\htdocs\gmaps\system\Common.php(1089): CodeIgniter\View\View->render('map/leaflet', Array, true)
+#3 C:\xampp\htdocs\gmaps\app\Controllers\Maps.php(13): view('map/leaflet')
+#4 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Maps->leaflet()
+#5 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#6 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-20 21:32:09 --> View themes, no current section.
+#0 C:\xampp\htdocs\gmaps\app\Views\map\leaflet.php(32): CodeIgniter\View\View->endSection()
+#1 C:\xampp\htdocs\gmaps\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\gmaps\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\gmaps\system\Common.php(1089): CodeIgniter\View\View->render('map/leaflet', Array, true)
+#4 C:\xampp\htdocs\gmaps\app\Controllers\Maps.php(13): view('map/leaflet')
+#5 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Maps->leaflet()
+#6 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#7 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-20 21:32:53 --> View themes, no current section.
+#0 C:\xampp\htdocs\gmaps\app\Views\map\leaflet.php(32): CodeIgniter\View\View->endSection()
+#1 C:\xampp\htdocs\gmaps\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\gmaps\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\gmaps\system\Common.php(1089): CodeIgniter\View\View->render('map/leaflet', Array, true)
+#4 C:\xampp\htdocs\gmaps\app\Controllers\Maps.php(13): view('map/leaflet')
+#5 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Maps->leaflet()
+#6 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#7 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-20 22:03:07 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';'
+#0 C:\xampp\htdocs\gmaps\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\gmaps\system\Common.php(1089): CodeIgniter\View\View->render('map/leaflet', Array, true)
+#2 C:\xampp\htdocs\gmaps\app\Controllers\Maps.php(13): view('map/leaflet')
+#3 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Maps->leaflet()
+#4 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#5 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-20 22:03:43 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\gmaps\app\Views\map\leaflet.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\gmaps\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\gmaps\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\gmaps\system\Common.php(1089): CodeIgniter\View\View->render('map/leaflet', Array, true)
+#4 C:\xampp\htdocs\gmaps\app\Controllers\Maps.php(13): view('map/leaflet')
+#5 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Maps->leaflet()
+#6 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#7 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-20 22:04:41 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\gmaps\app\Views\map\leaflet.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 51, Array)
+#1 C:\xampp\htdocs\gmaps\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\gmaps\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\gmaps\system\Common.php(1089): CodeIgniter\View\View->render('map/leaflet', Array, true)
+#4 C:\xampp\htdocs\gmaps\app\Controllers\Maps.php(13): view('map/leaflet')
+#5 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Maps->leaflet()
+#6 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#7 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-20 22:04:53 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\gmaps\app\Views\map\leaflet.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 51, Array)
+#1 C:\xampp\htdocs\gmaps\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\gmaps\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\gmaps\system\Common.php(1089): CodeIgniter\View\View->render('map/leaflet', Array, true)
+#4 C:\xampp\htdocs\gmaps\app\Controllers\Maps.php(13): view('map/leaflet')
+#5 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Maps->leaflet()
+#6 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#7 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-20 22:04:59 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\gmaps\app\Views\map\leaflet.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 51, Array)
+#1 C:\xampp\htdocs\gmaps\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\gmaps\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\gmaps\system\Common.php(1089): CodeIgniter\View\View->render('map/leaflet', Array, true)
+#4 C:\xampp\htdocs\gmaps\app\Controllers\Maps.php(13): view('map/leaflet')
+#5 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Maps->leaflet()
+#6 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#7 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-20 22:05:11 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\gmaps\app\Views\map\leaflet.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\gmaps\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\gmaps\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\gmaps\system\Common.php(1089): CodeIgniter\View\View->render('map/leaflet', Array, true)
+#4 C:\xampp\htdocs\gmaps\app\Controllers\Maps.php(13): view('map/leaflet')
+#5 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(832): App\Controllers\Maps->leaflet()
+#6 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#7 C:\xampp\htdocs\gmaps\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\gmaps\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
